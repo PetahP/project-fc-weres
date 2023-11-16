@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Ubuntu&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Merriweather:wght@300&family=Ubuntu&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     scroll-behavior: smooth;
+ }
+
+ img {
+     display: block;
+     width: 100%;
+ }
+
+ .container {
+     max-width: 1200px;
+     padding: 0 24;
+     margin: auto;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ fixed {
+     width: 100%;
+     position: fixed;
+ }
+
+ @media (min-width: 768px) {
+     .container: {
+         padding: 0 32px;
+     }
+ }
+ @media (min-width: 1400px) {
+    .container: {
+        padding: 0 15px;
+    }
+}
